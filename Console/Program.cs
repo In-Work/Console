@@ -10,11 +10,8 @@ namespace Console
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
             System.Console.WriteLine("привте");
-            System.Console.ReadLine();
-=======
->>>>>>> parent of 7a2b92f... Вывод на консоль слово "привет"
+            //System.Console.ReadLine();
         }
     }
 }
