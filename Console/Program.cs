@@ -10,8 +10,9 @@ namespace Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("привте");
-            //System.Console.ReadLine();
+            Donut donut = new Donut("Cухарик", 25, false);
+            donut.Print();
+            System.Console.ReadLine();
         }
     }
 }
