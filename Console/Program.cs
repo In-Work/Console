@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Console
 {
@@ -10,8 +6,16 @@ namespace Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("привте");
-            //System.Console.ReadLine();
+            List<Donut> donuts = new List<Donut> { 
+                new Donut("Cухарик", 25, false),
+                new Donut("Здоровяк", 2000, true),
+                new Donut("Нежданчик", 150, true) 
+            };
+            foreach (var item in donuts)
+            {
+                item.Print();
+            }
+            System.Console.ReadLine();
         }
     }
 }
